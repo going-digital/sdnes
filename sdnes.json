@@ -6,6 +6,27 @@
             "location": [0,0],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
+        },
+        "C1": {
+            "footprint": "0805-cap.json",
+            "layer": "top",
+            "location": [20, 0],
+            "rotate": 0,
+            "silkscreen": {"refdef": {"show": false}}
+        },
+        "D1": {
+            "footprint": "0805-led.json",
+            "layer": "top",
+            "location": [25, 0],
+            "rotate": 0,
+            "silkscreen": {"refdef": {"show": false}}
+        },
+        "R1": {
+            "footprint": "0805.json",
+            "layer": "top",
+            "location": [30, 0],
+            "rotate": 0,
+            "silkscreen": {"refdef": {"show": false}}
         }
     },
     "config": {

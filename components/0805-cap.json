@@ -1,0 +1,83 @@
+{
+    "pins":
+      {
+      "1":
+        {	
+          "layout": 
+          {
+            "pad": "pad", 
+            "location": [-1.1, 0]
+          }
+        },
+      "2":
+        {	
+          "layout": 
+          {
+            "pad": "pad", 
+            "location": [1.1, 0],
+            "rotate": 180
+          }
+        }
+      },
+      "layout":
+      {
+        "silkscreen":
+        {
+          "shapes":
+          [
+            {
+              "type": "rect",
+              "width": 0.2, 
+              "height": 1.4,
+              "location": [-0.2, 0],
+              "style": "fill"
+            },
+            {
+              "type": "rect",
+              "width": 0.2, 
+              "height": 1.4,
+              "location": [0.2, 0],
+              "style": "fill"
+            }
+          ]
+        },
+        "assembly":
+        {
+          "shapes":
+          [
+            {
+              "type": "rect",
+              "style": "stroke",
+              "stroke-width": 0.1,
+              "width": 2.55,
+              "height": 1.4
+            },
+            {
+              "type": "rect",
+              "style": "stroke",
+              "stroke-width": 0.1,
+              "width": 2,
+              "height": 1
+            }
+          ]
+        }
+      },
+      "pads":
+      {
+        "pad":
+        {
+          "shapes":
+          [
+            {
+              "type": "path",
+          "layers": ["top"],
+              "value": "m -20.807234,-11.848669 c -0.06104,0.06104 -0.122083,0.122083 -0.183125,0.183125 0,0.272292 0,0.544583 0,0.816875 0.466667,0 0.933333,0 1.4,0 0,-0.272292 0,-0.544583 0,-0.816875 -0.06104,-0.06104 -0.122083,-0.122083 -0.183125,-0.183125 -0.344583,0 -0.689167,0 -1.03375,0 z",
+              "rotate": -90,
+          "width": 1,
+          "height": 1.4,
+          "radii": {"tl": 0.25, "tr": 0, "bl": 0.25, "br": 0}
+        }
+          ]
+        }
+      }
+    }
