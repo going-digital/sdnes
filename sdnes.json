@@ -92,5 +92,12 @@
         "vias": {
             "default_via": "VIA"
         }
+    },
+    "soldermask": {
+        "pad_buffer": 0.1, 
+        "pad_scale_factor": 1.1
+    }, 
+    "vias": {
+        "default_via": "VIA"
     }
 }
