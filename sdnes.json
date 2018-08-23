@@ -3,7 +3,7 @@
         "SK1": {
             "footprint": "molex47571",
             "layer": "top",
-            "location": [0,-5],
+            "location": [0,-7],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
         },
@@ -31,7 +31,7 @@
         "SK2": {
             "footprint": "nes2018",
             "layer": "top",
-            "location": [-5, 5],
+            "location": [0, 3],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
         }
@@ -105,7 +105,7 @@
             "height": 21,
             "radii": { "bl": 10.5, "br": 7, "tl": 7, "tr": 10.5},
             "type": "path",
-            "value": "M 9.7182813,8.0353535 H -10.281719 V -10.464647 h 5.5 v 7.0 h 9.0 v -1.5 h -7.0 l 0,-5.5 H 9.7182813 Z", 
+            "value": "m 10,9.25 -20,0 0,-18.5000005 20,0 z", 
             "width": 65
         }
     },
