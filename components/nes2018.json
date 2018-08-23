@@ -8,7 +8,7 @@
         "PF00": { "layout": { "pad": "cast100", "location": [2.54, 2.54] } },
         "PF03": { "layout": { "pad": "cast100", "location": [2.54, 5.08] } },
         "PF02": { "layout": { "pad": "cast127", "location": [5.08, 0] } },
-        "GND":  { "layout": { "pad": "cast127", "location": [7.62, 0] } },
+        "GND":  { "layout": { "pad": "cast127", "location": [7.62, 0] } }
     },
     "layout": {
         "silkscreen": {
