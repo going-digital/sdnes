@@ -3,7 +3,7 @@
         "SK1": {
             "footprint": "molex47571",
             "layer": "top",
-            "location": [0,0],
+            "location": [0,-10],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
         },
@@ -31,7 +31,7 @@
         "SK2": {
             "footprint": "nes2018",
             "layer": "top",
-            "location": [-20, 0],
+            "location": [0, 10],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
         }
