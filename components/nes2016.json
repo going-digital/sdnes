@@ -1,0 +1,30 @@
+{
+    "pins": {
+        "GND":  { "layout": { "pad": "cast_127", "location": [0,0] } },
+        "PF04": { "layout": { "pad": "cast_127", "location": [2.54, 0] } },
+        "PF02": { "layout": { "pad": "cast_127", "location": [5.08, 0] } },
+        "3V3":  { "layout": { "pad": "cast_127", "location": [7.62, 0] } },
+        "PF03": { "layout": { "pad": "cast_100", "location": [9, -0.3] } },
+        "PF00": { "layout": { "pad": "cast_100", "location": [2.4, -2] } },
+        "PF01": { "layout": { "pad": "cast_100", "location": [4.4, -2] } },
+        "PF05": { "layout": { "pad": "cast_100", "location": [10, -2] } }
+    },
+    "layout": {
+        "silkscreen": {
+            "shapes":[]
+        }
+    },
+    "assembly": {
+        "shapes": []
+    },
+    "pads": {
+        "cast127": {
+            "shapes": [{"layers": ["top", "bottom"], "type": "rect", "width": 2.0, "height": 2.0, "offset": [-1, -1]}],
+            "drills": [{"diameter": 1.27}]
+        },
+        "cast100": {
+            "shapes": [{"layers": ["top", "bottom"], "type": "rect", "width": 1.5, "height": 1.5, "offset": [-0.75, -0.75]}],
+            "drills": [{"diameter": 1}]
+        }
+    }
+}

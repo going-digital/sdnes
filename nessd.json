@@ -1,0 +1,110 @@
+{
+    "components": {
+        "SK1": {
+            "footprint": "molex47571",
+            "layer": "top",
+            "location": [ 30, -10 ],
+            "rotate": 0,
+            "silkscreen": { "refdef": { "show": false } }
+        },
+        "SK2": {
+            "footprint": "nes2016.json",
+            "layer": "top",
+            "location": [ 0, 0 ],
+            "rotate": 0,
+            "silkscreen": { "refdef": { "show": false } }
+        }
+    }
+    "config": {
+        "name": "nessd",
+        "no-docs": false,
+        "no-drill-index": false,
+        "no-flashes": false,
+        "no-layer-index": false,
+        "rev": "0.1",
+        "style-layout": "default",
+        "units": "mm"
+    },
+    "distances": {
+        "from-pour-to": { "drill": 0.4, "outline": 0.25, "pad": 0.25, "route": 0.25 },
+        "soldermask": { "circle-buffer": 0.05, "path-scale": 1.05, "rect-buffer": 0.05 },
+        "solderpaste": { "circle-buffer": -0.1, "path-scale": 0.9, "rect-buffer": -0.1 }
+    },
+    "documentation": {
+        "board-details": {
+            "font-family": "Overlock-Regular-OTF-webfont",
+            "font-size": "1.5mm",
+            "letter-spacing": "0mm",
+            "line-height": "1.5mm",
+            "location": [-27.733792, -18.577144],
+            "rotate": 0,
+            "style": "fill",
+            "type": "text",
+            "value": "Board details:\nName: NES SD\nRevision: 0.1\nDescription: (S)NES Classis SD interface\nLicense: CERN Open Hardware License v1.2\nDesign by Peter Knight"
+        },
+        "manufacturing": {
+            "font-family": "Overlock-Regular-OTF-webfont",
+            "font-size": "1.5mm",
+            "letter-spacing": "0mm",
+            "line-height": "1.5mm",
+            "location": [-25.822231, -34.823622],
+            "rotate": 0,
+            "style": "fill",
+            "type": "text",
+            "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 0.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top and bottom, white\nSoldermask: top and bottom, blue\nSurface finish: lead-free ENIG\n\n* Do not add marking/logos without designer's authorisation\n* Remove silkscreen from pads unless specified otherwise\n* Designer must approve plots before production\n"
+        },
+        "pcbmode": {
+            "font-family": "Overlock-Regular-OTF-webfont",
+            "font-size": "1.2mm",
+            "letter-spacing": "0mm",
+            "line-height": "1.2mm",
+            "location": [-31.851771, -48.536478],
+            "rotate": 0,
+            "style": "fill",
+            "type": "text",
+            "value": "Designed using PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+        },
+    },
+    "drill-index": {
+        "location": [45.846922, -5.4516062]
+    },
+    "drills": {},
+    "files": {
+        "routing_data": "nessd_routing.json",
+        "routing_svg": "nessd.svg"
+    },
+    "gerber": {
+        "decimals": 6,
+        "digits": 6,
+        "min-segment_length": 0.05,
+        "steps-per-segment": 100
+    },
+    "outline": {
+        "shape": {
+            "height": 21,
+            "radii": { "bl": 10.5, "br": 7, "tl": 7, "tr": 10.5},
+            "type": "path",
+            "value": "m 26.218692,-9.75097 c 2.811893,-1.638275 7.405293,-2.556698 7.640667,-2.242178 1.46104,1.952324 2.883208,4.3608069 3.65211,6.8253243 0.04733,0.1516898 0.183698,0.4993825 0.493845,0.6519374 2.312037,1.1764609 4.770816,2.8285463 6.257024,4.21992052 0.130235,0.11323043 0.07396,0.41007212 0.006,0.47201603 C 41.778888,2.5207949 39.871053,5.0888707 37.41285,6.0106536 37.045548,6.1971848 36.533457,6.5037679 36.442321,7.1686307 36.350341,9.43573 34.466796,12.054428 34.36341,12.054428 c -2.384624,-0.024 -6.979847,-1.225606 -9.14117,-2.3307691 -0.106526,-0.054471 -0.372976,-0.166792 -0.718884,-0.086997 -1.188806,0.209783 -2.423782,0.4164931 -3.880844,0.4047221 l -40.447401,0 c -0.769319,0.02083 -0.984563,1.212839 -1.981699,1.650363 -0.658722,0.290205 -1.717296,0.265206 -2.396534,0.02694 -0.685187,-0.249598 -0.919227,-1.153384 -1.87218,-1.16737 -2.091108,0.0056 -1.995009,0.203344 -2.951566,0.533575 -1.110233,0.356853 -2.726217,0.574769 -4.195189,-0.0017 -1.781695,-0.69917 -2.482334,-1.9949001 -3.745887,-1.8780142 -1.09493,0.1012872 -1.334684,0.5287777 -3.018241,0.1677062 -1.094295,-0.1906119 -3.693735,-1.4514339 -3.470623,-2.7147413 0.223112,-1.2633075 0.332122,-1.9109835 -0.486535,-3.8729558 -0.103274,-0.1439578 -0.189191,-0.34097 -0.285076,-0.74368 -0.05526,-0.7175138 -0.0859,-1.29716469 0.238523,-1.92768363 0.693881,-1.09864229 0.681178,-1.65559277 0.128792,-2.61841677 -0.552387,-0.9628241 -0.469871,-2.1062731 -0.476021,-2.3869017 -0.0061,-0.2806286 -0.04004,-1.4803454 0.312415,-2.4092378 0.352459,-0.9288924 1.87693,-2.3454704 4.01466,-2.1125809 2.137731,0.2328896 2.337336,-1.4805901 5.094076,-1.9556641 3.002806,-0.74266 4.673886,0.840885 8.199573,0.849985 0.692311,0.06519 1.530463,-0.70072 2.353842,-1.007896 0.823379,-0.307176 1.77765,-0.504042 2.708425,-0.0381 0.930776,0.465941 0.713391,1.373098 1.577819,1.433884 l 40.568626,0 c 1.692338,0.1743456 3.035321,0.2436557 4.223452,0.4952312 0.726924,0.1172968 1.172385,0.058177 1.502929,-0.1151102 z", 
+            "width": 65
+        }
+    },
+    "shapes": {
+        "PRS": {
+            "footprint": "pours",
+            "layer": "top",
+            "location": [0,0]
+        },
+        "SS": {
+            "footprint": "silkscreen",
+            "layer": "top",
+            "location": [0,0]
+        },
+        "soldermask": {
+            "pad_buffer": 0.1,
+            "pad_scale_factor": 1.1
+        },
+        "vias": {
+            "default_via": "VIA"
+        }
+    }
+}
