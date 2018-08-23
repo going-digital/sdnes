@@ -27,6 +27,13 @@
             "location": [30, 0],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
+        },
+        "SK2": {
+            "footprint": "nes2018",
+            "layer": "top",
+            "location": [-20, 0],
+            "rotate": 0,
+            "silkscreen": {"refdef": {"show": false}}
         }
     },
     "config": {
