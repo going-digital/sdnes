@@ -14,7 +14,7 @@
             "rotate": 0,
             "silkscreen": { "refdef": { "show": false } }
         }
-    }
+    },
     "config": {
         "name": "sdnes",
         "no-docs": false,
@@ -63,7 +63,7 @@
             "style": "fill",
             "type": "text",
             "value": "Designed using PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
-        },
+        }
     },
     "drill-index": {
         "location": [45.846922, -5.4516062]
