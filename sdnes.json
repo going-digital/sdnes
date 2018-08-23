@@ -1,19 +1,5 @@
 {
     "components": {
-        "SK1": {
-            "footprint": "molex47571",
-            "layer": "top",
-            "location": [ 30, -10 ],
-            "rotate": 0,
-            "silkscreen": { "refdef": { "show": false } }
-        },
-        "SK2": {
-            "footprint": "nes2016.json",
-            "layer": "top",
-            "location": [ 0, 0 ],
-            "rotate": 0,
-            "silkscreen": { "refdef": { "show": false } }
-        }
     },
     "config": {
         "name": "sdnes",
