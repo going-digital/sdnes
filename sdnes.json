@@ -16,7 +16,7 @@
         }
     }
     "config": {
-        "name": "nessd",
+        "name": "sdnes",
         "no-docs": false,
         "no-drill-index": false,
         "no-flashes": false,
@@ -40,7 +40,7 @@
             "rotate": 0,
             "style": "fill",
             "type": "text",
-            "value": "Board details:\nName: NES SD\nRevision: 0.1\nDescription: (S)NES Classis SD interface\nLicense: CERN Open Hardware License v1.2\nDesign by Peter Knight"
+            "value": "Board details:\nName: SD NES\nRevision: 0.1\nDescription: (S)NES Classis SD interface\nLicense: CERN Open Hardware License v1.2\nDesign by Peter Knight"
         },
         "manufacturing": {
             "font-family": "Overlock-Regular-OTF-webfont",
@@ -70,8 +70,8 @@
     },
     "drills": {},
     "files": {
-        "routing_data": "nessd_routing.json",
-        "routing_svg": "nessd.svg"
+        "routing_data": "sdnes_routing.json",
+        "routing_svg": "sdnes.svg"
     },
     "gerber": {
         "decimals": 6,
