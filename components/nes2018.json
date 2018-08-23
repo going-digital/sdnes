@@ -4,10 +4,10 @@
         "PF04": { "layout": { "pad": "cast127", "location": [2.54, 0] } },
         "PF02": { "layout": { "pad": "cast127", "location": [5.08, 0] } },
         "GND":  { "layout": { "pad": "cast127", "location": [0,0] } },
-        "PF01": { "layout": { "pad": "cast100", "location": [0, -2] } },
-        "PF00": { "layout": { "pad": "cast100", "location": [2.5, -2] } },
-        "PF05": { "layout": { "pad": "cast100", "location": [0, -4] } },
-        "PF03": { "layout": { "pad": "cast100", "location": [2.5, -4] } }
+        "PF01": { "layout": { "pad": "cast100", "location": [0, 2] } },
+        "PF00": { "layout": { "pad": "cast100", "location": [2.5, 2] } },
+        "PF05": { "layout": { "pad": "cast100", "location": [0, 4] } },
+        "PF03": { "layout": { "pad": "cast100", "location": [2.5, 4] } }
     },
     "layout": {
         "silkscreen": {
