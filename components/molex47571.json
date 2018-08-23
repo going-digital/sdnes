@@ -1,21 +1,21 @@
 {
     "pins": {
-        "p1": { "layout": { "pad": "p070_100", "location": [3.85] }},
-        "p2": { "layout": { "pad": "p070_100", "location": [2.75] }},
-        "p3": { "layout": { "pad": "p070_100", "location": [1.65] }},
-        "p4": { "layout": { "pad": "p070_100", "location": [0.55] }},
-        "p5": { "layout": { "pad": "p070_100", "location": [-0.55] }},
-        "p6": { "layout": { "pad": "p070_100", "location": [-1.65] }},
-        "p7": { "layout": { "pad": "p070_100", "location": [-2.75] }},
-        "p8": { "layout": { "pad": "p070_100", "location": [-3.85] }}
+        "p1": { "layout": { "pad": "p070_100", "location": [3.85], "rotate": 0 } },
+        "p2": { "layout": { "pad": "p070_100", "location": [2.75], "rotate": 0 } },
+        "p3": { "layout": { "pad": "p070_100", "location": [1.65], "rotate": 0 } },
+        "p4": { "layout": { "pad": "p070_100", "location": [0.55], "rotate": 0 } },
+        "p5": { "layout": { "pad": "p070_100", "location": [-0.55], "rotate": 0 } },
+        "p6": { "layout": { "pad": "p070_100", "location": [-1.65], "rotate": 0 } },
+        "p7": { "layout": { "pad": "p070_100", "location": [-2.75], "rotate": 0 } },
+        "p8": { "layout": { "pad": "p070_100", "location": [-3.85], "rotate": 0 } }
     },
     "layout": {
         "silkscreen": {
-            "shapes":[]
+            "shapes": []
+        },
+        "assembly": {
+            "shapes": []
         }
-    },
-    "assembly": {
-        "shapes": []
     },
     "pads": {
         "p070_100": {
