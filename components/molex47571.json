@@ -1,13 +1,13 @@
 {
     "pins": {
-        "p1": { "layout": { "pad": "p070_100", "location": [3.85], "rotate": 0 } },
-        "p2": { "layout": { "pad": "p070_100", "location": [2.75], "rotate": 0 } },
-        "p3": { "layout": { "pad": "p070_100", "location": [1.65], "rotate": 0 } },
-        "p4": { "layout": { "pad": "p070_100", "location": [0.55], "rotate": 0 } },
-        "p5": { "layout": { "pad": "p070_100", "location": [-0.55], "rotate": 0 } },
-        "p6": { "layout": { "pad": "p070_100", "location": [-1.65], "rotate": 0 } },
-        "p7": { "layout": { "pad": "p070_100", "location": [-2.75], "rotate": 0 } },
-        "p8": { "layout": { "pad": "p070_100", "location": [-3.85], "rotate": 0 } }
+        "p1": { "layout": { "pad": "p070_100", "location": [3.85, 1.31], "rotate": 0 } },
+        "p2": { "layout": { "pad": "p070_100", "location": [2.75, 1.31], "rotate": 0 } },
+        "p3": { "layout": { "pad": "p070_100", "location": [1.65, 1.31], "rotate": 0 } },
+        "p4": { "layout": { "pad": "p070_100", "location": [0.55, 1.31], "rotate": 0 } },
+        "p5": { "layout": { "pad": "p070_100", "location": [-0.55, 1.31], "rotate": 0 } },
+        "p6": { "layout": { "pad": "p070_100", "location": [-1.65, 1.31], "rotate": 0 } },
+        "p7": { "layout": { "pad": "p070_100", "location": [-2.75, 1.31], "rotate": 0 } },
+        "p8": { "layout": { "pad": "p070_100", "location": [-3.85, 1.31], "rotate": 0 } }
     },
     "layout": {
         "silkscreen": {
@@ -19,7 +19,9 @@
     },
     "pads": {
         "p070_100": {
-            "shapes": [{"layers": ["top"], "type": "rect", "width": 0.7, "height": 1.0, "offset": [-0.35, -0.5]}]
+            "shapes": [
+                {"layers": ["top"], "type": "rect", "width": 0.7, "height": 1.0, "offset": [-0.35, -0.5]}
+            ]
         }
     }
 }
