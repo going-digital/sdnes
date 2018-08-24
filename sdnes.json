@@ -3,7 +3,7 @@
         "SK1": {
             "footprint": "molex47571",
             "layer": "top",
-            "location": [0,-7],
+            "location": [0, -7],
             "rotate": 0,
             "silkscreen": {"refdef": {"show": false}}
         },
@@ -18,14 +18,14 @@
             "footprint": "0805-led",
             "layer": "top",
             "location": [-8, 3],
-            "rotate": 90,
+            "rotate": 270,
             "silkscreen": {"refdef": {"show": false}}
         },
         "R1": {
             "footprint": "0805",
             "layer": "top",
             "location": [-8, -3],
-            "rotate": 90,
+            "rotate": 270,
             "silkscreen": {"refdef": {"show": false}}
         },
         "SK2": {
