@@ -1,7 +1,7 @@
 # SDnes
 ## An internal SD card modification for the Nintendo NES/SNES/Famicom/SuperFamicom classic consoles
 
-This design is a mod-board that solders directly onto the PCB. This board allows the console to a Micro-SD card. This works well with [Hakchi](https://github.com/TeamShinkansen/hakchi2) and the tools at [Hakchi Resources](https://hakchiresources.com).
+This design is a mod-board that solders directly onto the PCB. This board allows the console to a Micro-SD card. This works well with [Hakchi](https://github.com/TeamShinkansen/hakchi2) and the tools at [Hakchi Resources](https://hakchiresources.com). The board is designed with [KiCad 5](http://kicad-pcb.org).
 
 It is:
   * Cheap
