@@ -25,8 +25,8 @@ There are two versions of this mod. If your console main board has the marking "
 | Component | Description | Source |
 |-|-|-|
 |SK1|Molex 500901-0801|RS:670-2430, Farnell:1344008, Digikey:WM19081CT-ND, Mouser:538-500901-0801, [Octopart](https://octopart.com/search?q=500901-0801)|
-|PCB NES|PCB|[Oshpark](https://oshpark.com/shared_projects/vaCz66J4) or your chosen fabricator.|
-|or PCB SHVC|PCB|[Oshpark](https://oshpark.com/shared_projects/LHg9E5QS) or your chosen fabricator.|
+|PCB NES|PCB|[Oshpark](https://oshpark.com/shared_projects/vaCz66J4) or [your chosen fabricator.](https://github.com/going-digital/sdnes/tree/master/nes/fabrication)|
+|or PCB SHVC|PCB|[Oshpark](https://oshpark.com/shared_projects/LHg9E5QS) or [your chosen fabricator.](https://github.com/going-digital/sdnes/tree/master/shvc/fabrication)|
 
 Optionally card access indicator: Fit R1 (1Kohm, 0603) and D1 (Red LED, 0603).
 
