@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 500901-0801
+#
+DEF 500901-0801 J 0 40 Y Y 1 L N
+F0 "J" -200 520 50 H V L BNN
+F1 "500901-0801" -201 -702 50 H V L BNN
+F2 "MOLEX_500901-0801" 0 0 50 H I L BNN
+F3 "500901-0801" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Conn.; IC Socket; Memory Card; 1.10mm Pitch; TransFlash; Hinge Type; Round Corner Top" 0 0 50 H I L BNN
+F7 "Molex" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 100 500 100 -600 N
+P 2 0 0 10 100 -600 -200 -600 N
+P 2 0 0 10 -200 -600 -200 500 N
+P 2 0 0 10 -200 500 100 500 N
+X 1 1 -400 400 200 R 40 40 0 0 P 
+X 2 2 -400 300 200 R 40 40 0 0 P 
+X 3 3 -400 200 200 R 40 40 0 0 P 
+X 4 4 -400 100 200 R 40 40 0 0 P 
+X 5 5 -400 0 200 R 40 40 0 0 P 
+X 6 6 -400 -100 200 R 40 40 0 0 P 
+X 7 7 -400 -200 200 R 40 40 0 0 P 
+X 8 8 -400 -300 200 R 40 40 0 0 P 
+X S SH1 -400 -500 200 R 40 40 0 0 P 
+X S SH2 -400 -500 200 R 40 40 0 0 P 
+X S SH3 -400 -500 200 R 40 40 0 0 P 
+X S SH4 -400 -500 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

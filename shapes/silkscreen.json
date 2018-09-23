@@ -1,9 +1,0 @@
-{
-    "layout": {
-        "silkscreen": {
-            "shapes": [
-                { "type": "layer", "layers": ["top"] }
-            ]
-        }
-    }
-}
