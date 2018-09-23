@@ -1,0 +1,16 @@
+# BOM export files
+*.csv
+*.tsv
+*.xml
+# Backup files
+*.bak
+*.kicad_pcb-bak
+# Report files
+*-drl.rpt
+# Caches
+*-cache.lib
+fp-lib-table
+sym-lib-table
+# Output files
+*.drl
+*.gbr
