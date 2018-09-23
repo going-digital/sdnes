@@ -33,6 +33,7 @@ Optionally card access indicator: Fit R1 (1Kohm, 0603) and D1 (Red LED, 0603).
 Optional decoupling: Fit C1 (100nF, 0603)
 
 # Fitting the NES version
+![Artwork](https://github.com/going-digital/sdnes/raw/master/assets/nes_pcb.png "OSHPark artwork")
 * First, solder the card socket onto the mod PCB.
 * Remove the metal cover plate over the console PCB.
 * Mount the PCB as shown below. Hold it in place with tape, taking care to precisely align the holes with the test pads. *Image placeholder*
@@ -42,6 +43,7 @@ Optional decoupling: Fit C1 (100nF, 0603)
 * Insert the prepared SD card and latch it in place.
 
 # Fitting the SHVC version
+![Artwork](https://github.com/going-digital/sdnes/raw/master/assets/shvc_pcb.png "OSHPark artwork")
 * First, solder the card socket onto the mod PCB.
 * Remove the console PCB, and turn it over. The mod PCB fits on the rear.
 * Mount the PCB as shown below. Hold it in place with tape, taking care to precisely align the holes with the test pads. *Image placeholder*
